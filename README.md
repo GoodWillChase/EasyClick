@@ -1,1 +1,3 @@
 # EasyClick
+
+> Django.
