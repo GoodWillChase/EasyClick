@@ -1,5 +1,5 @@
 """
-ASGI config for demosite project.
+ASGI config for base_one project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'demosite.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'base_one.settings')
 
 application = get_asgi_application()
